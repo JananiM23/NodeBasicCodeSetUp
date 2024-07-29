@@ -9,6 +9,7 @@ export default class sampleController {
         catch(error) {
             res.send("Something went wrong...");
             return error;
+            console.log(error);
         }
 
     }
