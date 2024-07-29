@@ -3,7 +3,7 @@ import router from "./routes/sample.router";
 
 const app = express();
 app.use(express.json());
-
+// port
 const PORT = 3000;
 
 app.get('/', (req:Request, res:Response) => {
