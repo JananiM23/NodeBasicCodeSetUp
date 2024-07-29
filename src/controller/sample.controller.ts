@@ -5,6 +5,7 @@ export default class sampleController {
         try {
             res.send("Hello, here is your response!");
             console.log("Controller working fine!");
+            // log
         }
         catch(error) {
             res.send("Something went wrong...");
