@@ -4,7 +4,7 @@ import router from "./routes/sample.router";
 const app = express();
 app.use(express.json());
 
-const PORT = 5000;
+const PORT = 3000;
 
 app.get('/', (req:Request, res:Response) => {
     res.send("Welcome to Node js basic setup with typescript!");
